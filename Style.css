@@ -1,0 +1,123 @@
+body {
+    background-color: lavenderblush;
+}
+
+nav {
+/*    background-color: honeydew;*/
+    float: right;
+    font-size: 20px;
+    padding-block:auto;
+    margin-top:10px;
+/*    font-family:Georgia;*/
+/*    height: 100vh;
+    padding: 15px;*/
+}
+
+container {
+    padding: 10px 10px;
+    background-color:antiquewhite;
+    align-content:center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+ul {
+    text-align:left;
+    list-style-type:square;
+    padding: 20px;
+    margin: 20px;
+    line-height:40px;
+    font-size: 20px;
+
+}
+
+
+li a {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px;
+/*    text-decoration: none;*/
+    display: block;
+    border-radius: 20px;
+    font-family: Georgia;
+    
+}
+
+li strong {
+    font-size: 150%;
+    color: lightgray;
+    font-family: Georgia;
+}
+
+li a:hover {
+    background-color:azure;
+    cursor: pointer;
+}
+
+div {
+    border-radius: 5px;
+    display:normal;
+    padding: 4px 4px;
+    margin: 10px;
+/*    max-width: 200px;*/
+    background-color:azure;
+}
+
+#contact{
+    width:5px;
+    height:5px;
+    display:inline-block;
+    align-content:center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 250%;
+    color: darkslategrey;
+    margin-top:75px;
+    /*    display:inline-block;*/
+}
+
+h5 {
+    text-align: center;
+    font-size: 100%;
+    color: darkslategrey;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+    height: 25%;
+    width: 25%;
+    align-content: center;
+    float: initial;
+}
+
+h3 {
+    text-align: left;
+    font-size:200%;
+    color:cadetblue;
+    padding:20px;
+    margin: 20px;
+}
+
+h4 {
+    text-align: center;
+    font-size: initial;
+    color: cadetblue;
+    padding: 10px;
+    margin:10px;
+}
+
+p {
+    text-align: center;
+    font-size: initial;
+    color: darkslategrey;
+    padding: 10px;
+    margin: 10px;
+}
+
